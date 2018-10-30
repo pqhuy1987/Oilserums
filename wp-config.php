@@ -20,20 +20,20 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define('DB_NAME', 'pqhuy198_oilserums');
-//define('DB_NAME', 'wordpress');
+//define('DB_NAME', 'pqhuy198_oilserums');
+define('DB_NAME', 'wordpress');
 
 /** Username của database */
-define('DB_USER', 'pqhuy198_wp');
-//define('DB_USER', 'root');
+//define('DB_USER', 'pqhuy198_wp');
+define('DB_USER', 'root');
 
 /** Mật khẩu của database */
-define('DB_PASSWORD', '12345');
-//define('DB_PASSWORD', '');
+//define('DB_PASSWORD', '12345');
+define('DB_PASSWORD', '');
 
 /** Hostname của database */
-define('DB_HOST', '192.185.41.153:3306');
-//define('DB_HOST', 'localhost');
+//define('DB_HOST', '192.185.41.153:3306');
+define('DB_HOST', 'localhost');
 
 /** Database charset sử dụng để tạo bảng database. */
 define('DB_CHARSET', 'utf8mb4');
